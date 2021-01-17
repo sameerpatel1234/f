@@ -1,0 +1,22 @@
+# Output files
+*.o
+*.png
+!sample.png
+src/colors.bson
+
+# Tools byproducts
+.gdb_history
+.ycm_extra_conf.py
+*/tags
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Executables
+mcmap
+run_tests
+*json2bson
+*extractChunk
+*nbt2json
+*regionReader
